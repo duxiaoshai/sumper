@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		.box{
+			width: 300px;
+			height: 200px;
+			background: skyblue;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	</style>
+	<div class="box"></div>
+</body>
+<script>
+	window.onload =function(){
+		let box =document.getElementsByClassName('box')[0];
+		
+		let a = 1;
+			let b = 1;
+		let t;
+		t = setInterval(move,4);
+		function move(){
+			
+			let keshitop = window.innerHeight;
+		    let keshileft = window.innerWidth;
+		    let zuidatop = window.innerHeight - box.offsetHeight;
+			let zuidaleft = window.innerWidth - box.offsetWidth;
+			let newtop = box.offsetTop + a;
+			let newleft = box.offsetLeft + b;
+			
+			box.style.top = newtop + 'px'
+			box.style.left = newleft + 'px'
+			if(newtop==zuidatop){
+				a=-1;
+
+			}if(newtop==0){
+                a=1;
+			}if(newleft==zuidaleft){
+			b=-1;
+		    }
+		     if(newleft==0){
+			b=1;
+		    }
+
+
+		} 
+	}
+</script>
+</html>
