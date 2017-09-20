@@ -1,0 +1,357 @@
+/*
+* @Author: Thinkpad
+* @Date:   2017-08-22 17:26:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-21 00:48:27
+*/
+@import url('base.css');
+body{
+	background: #fff;
+}
+header{
+	width: 100%;
+	height: 33px;
+	/* background: red; */
+}
+main{
+	width: 1200px;
+	height: 100%;
+	/* background: yellow; */
+	margin: 0 auto;
+	font-size: 12px;
+}
+.left{
+	width: 400px;
+	height: 100%;
+	/* background: green; */
+	float: left;
+}
+.left li{
+	float: left;
+	line-height: 33px;
+	color: #ccc;
+}
+.left li a{
+	color: #ccc;
+	display: block;
+}
+.left li .zhong{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.left li .zhong:hover{
+	color: red;
+}
+.left li .you:hover{
+	color: red;
+}
+.right{
+	width: 640px;
+	height: 100%;
+	/* background: black; */
+	float: right;
+}
+.right li{
+	float: left;
+}
+.right a{
+	color: #ccc;
+	float: left;
+}
+.right li{
+	line-height: 33px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: auto;
+}
+.right li i{
+	font-size: 12px;
+	color: red;
+	float: left;
+}
+.right .xian{
+	padding-right: 10px;
+	border-right: 1px solid #ccc;
+}
+.right .xian1{
+	padding-right: 0;
+}
+.right a:hover{
+	color: red;
+}
+nav{
+	width: 1260px;
+	height: 130px;
+	background: white;
+	margin: 0 auto;
+}
+.zuo{
+	width: 290px;
+	height: 130px;
+	float: left;
+	background: url('../img/TB2uxwZXSGFJuJjSZFwXXa.iFXa-366168414.gif') no-repeat center;
+}
+nav .you{
+	width: 625px;
+	height: 70px;
+	margin: 0 auto;
+	/* background: red; */
+	padding-top: 30px;
+	/* float: right; */
+}
+nav .sousuo{
+	width: 623px;
+	height: 36px;
+	background: white;
+	border: 2px solid red;
+	
+}
+nav span{
+	font-size: 18px;
+	color: #ccc;
+	line-height: 36px;
+	margin-left: 5px;
+}
+.sousuo .sousuo1{
+	width: 132px;
+	height: 36px;
+	background: red;
+	float: right;
+}
+.sousuo .sousuo1 a{
+	font-size: 18px;
+	color: white;
+	display: block;
+	text-align: center;
+	line-height: 36px;
+	font-weight: bold;
+}
+nav .daohang{
+	width: 625px;
+	height: 22px;
+	margin-top: 2px;
+	/* background: black; */
+}
+.daohang li{
+	font-size: 14px;
+	float: left;
+	border-right: 1px solid #ccc;
+	padding-right: 12px;
+	padding-left: 12px;
+	line-height: 22px;
+}
+.daohang li a{
+	color: #ccc;
+}
+.daohang .hongzi{
+	color: red;
+}
+.daohang .shouji{
+	border-right: 0 solid #ccc;
+}
+aside{
+	width: 100%;
+	height: 536px;
+	background: red;
+}
+.ding{
+	width: 1260px;
+	height: 36px;
+	background: #ff0036;
+	margin: 0 auto;
+}
+.ding .daogou i{
+	font-size: 20px;
+}
+.ding .daogou{
+	width: 1060px;
+	height: 36px;
+	/* background: blue; */
+	float: right;
+}
+.ding .daogou a{
+	font-size: 18px;
+	color: #fff;
+	display: block;
+	padding-right: 22px;
+	height: 36px;
+	line-height: 36px;
+
+}
+.ding .daogou li{
+	float: left;
+	margin: 0 auto;
+}
+.di{
+	width: 1260px;
+	height: 500px;
+	
+	position: relative;
+	margin-bottom: 60px;
+	margin: 0 auto;
+}
+.di1{
+	width: 1260px;
+	height: 500px;
+    position: absolute;
+	margin-bottom: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.di img{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+
+
+}
+.di .yuandian{
+	width: 200px;
+	height: 20px;
+	/* background: yellow; */
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+.di .yuandian li{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #ccc;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 0 5px;
+}
+.di .yuandian li:hover{
+	background: #f1f1f1;
+}
+.shangpin{
+	width: 200px;
+	height: 100%;
+/* 	margin-left: 50px; */
+	background: #e22127;
+	float: left;
+}
+.shangpinfenlei{
+	font-size: 18px;
+	color: white;
+	line-height: 36px;
+	margin-left: 10px;
+	float: left;
+}
+.shangpinfenlei i{
+	margin-right: 20px;
+}
+.di .cenav{
+	width: 200px;
+	height: 500px;
+	/* background: #e22127; */
+	position: absolute;
+	margin-left: 0px;
+}
+.item{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	background: red;
+	display: none;
+	z-index: 999;
+}
+
+.di .cenav li{
+	width: 190px;
+	height: 31px;
+	background: #ccc;
+	padding-left: 10px;
+}
+.di .cenav li:hover{
+	background: white;
+}
+.di .cenav li a{
+	font-size: 16px;
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 31px;
+}
+.di .cenav li a:hover{
+	color: red;
+}
+.logoye{
+	width: 1232px;
+	height: 478px;
+	margin: 0 auto;
+	background: red;
+	margin-top: 60px;
+}
+.di1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 100%;
+
+}
+.di1 a:first-child{
+	left: 0;
+}
+.logoye .logo-left{
+	width: 246px;
+	height: 100%;
+	background: yellow;
+	float: left;
+}
+.logoye .logo-left a{
+	display: block;
+}
+.logoye .logo-left a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.logoye .logo-center{
+	width:740px;
+	height: 100%;
+	float: left;
+	padding-left: 8px;
+	box-sizing: border-box; 
+}
+.logoye .logo-center li{
+	width: 121px;
+	height: 110px;
+	background: yellow;
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.logoye .logo-center li .logo-tu{
+	text-align: center;
+	margin-top: 30px;
+}
+.logoye .logo-center li .logo-tu img{
+	/* display: block; */
+	width: 82%;
+	height: 50px;
+	margin: 0 auto;
+}
+.logoye .logo-right{
+	width: 246px;
+	height: 100%;
+	background: yellow;
+	float: left;
+}
+.logoye .logo-right a{
+	display: block;
+}
+.logoye .logo-right a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
